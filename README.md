@@ -9,3 +9,6 @@ Open `index.html` in a browser; no installation or build required. The optional 
 Push these files to the `main` branch of your GitHub repository. In **Settings → Pages → Build and deployment → Source**, select **GitHub Actions**. The included workflow publishes the site on pushes to main, or through **Actions → Deploy snack picker to GitHub Pages → Run workflow** after enabling Pages.
 
 The public URL will be shown in the workflow’s `github-pages` environment once deployment completes.
+
+## AI Note
+I had codex build this in like 5 minutes. I wrote none of this code except this readme section. Welcome to the era of throwaway web apps!
