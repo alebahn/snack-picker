@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#285b45">
+  <meta name="description" content="Pick seven different school snacks, with portions and preparation notes.">
+  <title>Snack Seven · School snack picker</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><a class="brand" href="./"><span aria-hidden="true">🍊</span> snack seven</a><span class="tag">THE SCHOOL SNACK PICKER</span></header>
+    <section class="intro" aria-labelledby="title">
+      <p class="eyebrow">A LITTLE LESS PLANNING. A LITTLE MORE VARIETY.</p>
+      <h1 id="title">Seven snacks.<br><em>One less decision.</em></h1>
+      <p class="description">A fresh mix from your school snack menu.<br>Pick seven, pack them up, and you’re good to go.</p>
+      <button id="pick" type="button"><span aria-hidden="true">⤨</span> Pick my 7 snacks</button>
+      <p class="hint">24 menu choices · 7 unique picks every time</p>
+    </section>
+    <section class="selection" aria-labelledby="selection-title">
+      <div class="section-heading"><h2 id="selection-title">Your snack lineup</h2><span id="count">Ready to pack</span></div>
+      <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+      <ol id="snacks"></ol>
+    </section>
+    <details><summary>See the full school snack menu <span>24 choices</span></summary><ul id="menu"></ul></details>
+    <footer>Made for easier school mornings. <span aria-hidden="true">☀</span></footer>
+    <noscript>Please enable JavaScript to randomly pick your snacks.</noscript>
+  </main>
+</body>
+</html>
